@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<LinearLayout android:weightSum="1" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="20dp" android:text="用户名称" android:id="@+id/textUserName"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/inputUserName"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="20dp" android:text="用户密码" android:id="@+id/textUserPasswd"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/inputUserPasswd" android:password="true"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="20dp" android:text="性别" android:id="@+id/textSex"/>
+
+
+-<RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/Sex">
+
+<RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="男" android:id="@+id/Male"/>
+
+<RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="女" android:id="@+id/Female"/>
+
+</RadioGroup>
+
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="20dp" android:text="爱好" android:id="@+id/texthobby"/>
+
+<CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="体育" android:id="@+id/PE"/>
+
+<CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="音乐" android:id="@+id/Music"/>
+
+<CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="阅读" android:id="@+id/Read"/>
+
+<CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="上网" android:id="@+id/Online"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="提交" android:id="@+id/Submit"/>
+
+<TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:id="@+id/Result"/>
+
+</LinearLayout>
